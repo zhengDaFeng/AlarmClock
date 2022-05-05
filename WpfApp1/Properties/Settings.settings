@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WpfApp1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AlarmTime1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">9:00</Value>
+    </Setting>
+    <Setting Name="Remark1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">上班</Value>
+    </Setting>
+    <Setting Name="AlarmTime2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12:00</Value>
+    </Setting>
+    <Setting Name="Remark2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">下班</Value>
+    </Setting>
+    <Setting Name="AlarmTime3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">14:00</Value>
+    </Setting>
+    <Setting Name="Remark3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">上班</Value>
+    </Setting>
+    <Setting Name="AlarmTime4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">18:00</Value>
+    </Setting>
+    <Setting Name="Remark4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">下班</Value>
+    </Setting>
+    <Setting Name="Enable1" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Enable2" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Enable3" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Enable4" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DayOfWeek1" Type="System.Boolean[]" Scope="User">
+	  <Value Profile="(Default)"/>
+    </Setting>
+    <Setting Name="DayOfWeek2" Type="System.Boolean[]" Scope="User">
+      <Value Profile="(Default)"/>
+    </Setting>
+    <Setting Name="DayOfWeek3" Type="System.Boolean[]" Scope="User">
+      <Value Profile="(Default)"/>
+    </Setting>
+    <Setting Name="DayOfWeek4" Type="System.Boolean[]" Scope="User">
+      <Value Profile="(Default)"/>
+    </Setting>
+  </Settings>
+</SettingsFile>
