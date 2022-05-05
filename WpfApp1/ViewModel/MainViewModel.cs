@@ -56,6 +56,23 @@ namespace WpfApp1.ViewModel
 
         private void GetConfig()
         {
+            if (Properties.Settings.Default.DayOfWeek1 == null)
+            {
+                Properties.Settings.Default.DayOfWeek1 = new bool[7] { true, true, true, true, true, true, true };
+            }
+            if (Properties.Settings.Default.DayOfWeek2 == null)
+            {
+                Properties.Settings.Default.DayOfWeek2 = new bool[7] { true, true, true, true, true, true, true };
+            }
+            if (Properties.Settings.Default.DayOfWeek3 == null)
+            {
+                Properties.Settings.Default.DayOfWeek3 = new bool[7] { true, true, true, true, true, true, true };
+            }
+            if (Properties.Settings.Default.DayOfWeek4 == null)
+            {
+                Properties.Settings.Default.DayOfWeek4 = new bool[7] { true, true, true, true, true, true, true };
+            }
+
             AlarmCardViewModelList[0].AlarmModel.Enable = Properties.Settings.Default.Enable1;
             AlarmCardViewModelList[0].AlarmModel.Alarm = Properties.Settings.Default.AlarmTime1;
             AlarmCardViewModelList[0].AlarmModel.Remark = Properties.Settings.Default.Remark1;
@@ -104,9 +121,9 @@ namespace WpfApp1.ViewModel
         private void SaveConfig()
         {
             Properties.Settings.Default.Enable1 = AlarmCardViewModelList[0].AlarmModel.Enable;
-            Properties.Settings.Default.Enable2 = AlarmCardViewModelList[0].AlarmModel.Enable;
-            Properties.Settings.Default.Enable3 = AlarmCardViewModelList[0].AlarmModel.Enable;
-            Properties.Settings.Default.Enable4 = AlarmCardViewModelList[0].AlarmModel.Enable;
+            Properties.Settings.Default.Enable2 = AlarmCardViewModelList[1].AlarmModel.Enable;
+            Properties.Settings.Default.Enable3 = AlarmCardViewModelList[2].AlarmModel.Enable;
+            Properties.Settings.Default.Enable4 = AlarmCardViewModelList[3].AlarmModel.Enable;
 
             Properties.Settings.Default.DayOfWeek1[0] = AlarmCardViewModelList[0].AlarmModel.DayOfWeekEnable[0];
             Properties.Settings.Default.DayOfWeek1[1] = AlarmCardViewModelList[0].AlarmModel.DayOfWeekEnable[1];
